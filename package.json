@@ -1,0 +1,33 @@
+{
+  "name": "ligaya-technology-solutions",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.88.0",
+    "@react-three/fiber": "^8.15.0",
+    "framer-motion": "^10.16.0",
+    "lenis": "^1.0.33",
+    "next": "^14.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.3",
+    "react-scroll": "^1.9.0",
+    "recharts": "^3.8.1",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.18",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
