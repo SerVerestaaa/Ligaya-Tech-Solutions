@@ -21,7 +21,7 @@ export default function BookPage() {
                 className="font-display font-800 text-white tracking-wide hover:text-cyan transition-colors"
                 style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800 }}
               >
-                ← LIGAYA2231
+                ← LIGAYA2231_tite_na_Maliit
               </Link>
               <div className="flex items-center gap-3">
                 <Link
