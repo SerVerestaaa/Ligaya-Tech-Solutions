@@ -113,3 +113,6 @@ export function getCaseStudy(slug) {
   return caseStudies.find((item) => item.slug === slug)
 }
 
+export function getAllCaseStudies() {
+  return caseStudies;
+}
