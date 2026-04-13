@@ -10,4 +10,13 @@ const nextConfig = {
   ...(assetPrefix ? { assetPrefix } : {}),
 }
 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export', // CRITICAL: This generates the 'out' folder
+  images: {
+    unoptimized: true, // Necessary for static export
+  },
+};
+
+export default nextConfig;
 export default nextConfig
