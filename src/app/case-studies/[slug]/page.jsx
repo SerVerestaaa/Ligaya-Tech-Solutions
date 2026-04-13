@@ -1,6 +1,14 @@
 import CaseStudyPage from '@/site-pages/CaseStudyPage'
-import { getCaseStudy } from '@/data/caseStudies'
+import { getCaseStudy, getAllCaseStudies } from '@/data/caseStudies'
 import { siteName } from '@/siteConfig'
+
+export async function generateStaticParams() {
+  const studies = getAllCaseStudies(); 
+  
+  return studies.map((study) => ({
+    slug: study.slug,
+  }));
+}
 
 export async function generateMetadata({ params }) {
   const study = getCaseStudy(params.slug)
